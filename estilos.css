@@ -1,0 +1,127 @@
+/****************************************
+*    Estilos generales de la pagina     *
+****************************************/
+body {
+    background-color: #CFF4FC;
+    background-image: linear-gradient(45deg, #CFF4FC 0%, #74B9FF 50%, #A2D9CE 75%, #99BBFF 100%);
+}
+
+h1 {
+    font-family: 'Gentium Plus', serif;
+    font-size: 60px;
+    text-align:center;
+    color:#0049a8;
+    text-shadow: 2px 2px white;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Gentium Plus', serif;
+    font-size: 40px;
+    text-align:center;
+    color:#7b26e9;
+    text-shadow: 1px 1px rgb(78, 22, 182);
+}
+
+/****************************************
+*           Estilos menú                *
+****************************************/
+.menu{
+    font-size: 2rem;
+    background-color:#0049a8;
+    display: inline-flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding: 0px 10px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color:black;
+}
+
+.menu a.activo{
+    background-color: white;
+    color:black;
+}
+
+/****************************************
+*       Estilos contador de días        *
+****************************************/
+.contenedor-contador {
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.contenedor-dias {
+    background-color: #011833;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dias-numeros {
+    font-weight: bold;
+    font-size: 60px;
+    padding: 5px;
+}
+
+.dias-base {
+    font-size: 20px;
+}
+
+/****************************************
+*           Estilos imagenes            *
+****************************************/
+.contenedor-img-portada {
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contenedor-galeria {
+    display: flex;                  /* Establecemos un contenedor flexible */
+    flex-wrap: wrap;                /* Hace que los elementos se envuelvan en una nueva línea si no caben */
+    justify-content: space-around;  /* Distribuye los elementos con espacio entre ellos */
+  }
+
+.contenedor-imagen {
+    background-color: #ffff;
+    margin-bottom: 20px;
+    width: 320px;
+}
+
+.estilos-imagenes {
+    padding: 10px;
+    width: 300px;
+}
+
+.descripcion-imagen {
+    text-align: center;
+}
+
+/****************************************
+*           Estilos notas               *
+****************************************/
+.contenedor-notas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.notas {
+    background: burlywood;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    margin: auto;
+    padding: 5px;
+    letter-spacing: 3px;
+}
