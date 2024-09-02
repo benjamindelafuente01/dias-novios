@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esmeralda y Benjamin</title>
+    <title>Página de Benjamin y Esmeralda</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="website icon" type="png" href="iconos/icono-pagina.png">
 </head>
 <body>
+
+    <h1 id="seccionInicio">Benjamín y Esmeralda❤️</h1>
+    <hr>
+
+    <!-- Menu de navegacion -->
+    <div class="menu">
+        <a href="#seccionInicio"> Inicio </a>
+        <a href="#seccionDiasNovios"> Días de novios </a>
+        <a href="#seccionFotos"> Fotos </a>
+        <a href="#seccionNotas"> Notas </a>
+    </div>
+
+    <h2 id="seccionDiasNovios">Días de novios</h2>
+
+    <!-- Contenedor de días transcurridos -->
+    <div class="contenedor-contador">
+        <div class="contenedor-dias">
+            <span class="dias-numeros" id="dias-transcurridos">0</span> <br>
+            <span class="dias-base">días</span>
+        </div>
+    </div>
+
+    <h2 id="seccionFotos">Fotos de nosotros</h2>
+
+    <!-- Foto de portada -->
+    <div class="contenedor-img-portada">
+        <img class="estilos-imagenes" src="../imagenes/portada.jpg" alt="img-portada">
+    </div>
+
+    <!-- Contenedor de las fotos -->
+    <div class="contenedor-galeria">
+
+        <div class="contenedor-imagen">
+            <img class="estilos-imagenes" src="../imagenes/parque-santiago.jpg" alt="img-portada">
+            <p class="descripcion-imagen">Esta salida al parque de Santiago fue muy linda, 
+                estar en los columpios, tomarnos fotos, ver el atardecer y estar en el río.</p>
+        </div>
+
+        <div class="contenedor-imagen">
+            <img class="estilos-imagenes" src="../imagenes/carretera.jpg" alt="img-portada">
+            <p class="descripcion-imagen">Esta tarde fue muy bonita, en el jardín de Tenechaco, 
+                te preparé la comida y después en la carretera se veía padre el atardecer.</p>
+        </div>
+
+        <div class="contenedor-imagen">
+            <img class="estilos-imagenes" src="../imagenes/boda.jpg" alt="img-portada">
+            <p class="descripcion-imagen">El día de la boda de tu primo, estuvimos juntos en la iglesia
+                y después en el jardín, nos tomamos fotos y bailamos.</p>
+        </div>
+
+        <div class="contenedor-imagen">
+            <img class="estilos-imagenes" src="../imagenes/coppel.jpg" alt="img-portada">
+            <p class="descripcion-imagen">Día de partido, saliendo nos fuimos a Coppel y nos tomamos 
+                esta foto, después comimos unas ricas tortas y agua de jobo.</p>
+        </div>
+
+        <div class="contenedor-imagen">
+            <img class="estilos-imagenes" src="../imagenes/feria.jpg" alt="img-portada">
+            <p class="descripcion-imagen">Noche de feria!!! Comimos hamburguesas, nos subimos a la rueda
+                de la fortuna, fuimos a ver los caballos, al concierto, una noche muy bonita.</p>
+        </div>
+
+        <!-- Agregar más fotos aquí -->
+
+    </div>
+
+    <h2 id="seccionNotas">Notas</h2>
+
+    <!-- Contenedor para las notas -->
+    <div class="contenedor-notas">
+        <div class="notas">
+            <p><b>De Benjamín para Esmeralda: </b></p>
+            <p>Quiero decirte que soy muy afortunado de tenerte en mi vida ❤️ </p>
+            <p>31/Ago/2024</p>
+        </div>
+        <!-- Agregar más notas aquí -->
+    </div>
     
+    <!-- Incluimos script para calcular los días transcurridos -->
+    <script src="main.js"></script>
+
 </body>
 </html>
